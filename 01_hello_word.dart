@@ -1,5 +1,6 @@
 //el main es con lo que comienza
 //siempre una aplicación con dart
+// y se le coloca la palabra reservada (void) para indicar que no se retorna nada
 void main(){
   //var myName = 'Braian'; //esto es un variable
 
