@@ -19,4 +19,7 @@ void main(){
   
   //print('Hola ${1 + 1}');
   //hola 2
+
+  // Simbolo de $ porque quiero hacer una interpolación
+  // { } porque quiero ejecutar una expresion
 }
