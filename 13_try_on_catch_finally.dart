@@ -2,13 +2,16 @@ void main() async {
   print('Inicio del programa');
 
   try {
+    //intento
     final value = await httpGet('https://Braian-Quintian');
     print('Exito: $value');
   } on Exception catch (err) {
+    //on es para capturar el error y catch es para mostrar el error
     print('Tenemos una Exception, $err');
   } catch (err) {
     print('Algo terrible paso: $err');
   } finally {
+    //finally es para que se ejecute siempre
     print('Fin del try y catch');
   }
 
